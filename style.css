@@ -1,0 +1,43 @@
+body {
+  font-family: monospace;
+}
+
+form {
+  background-color: rgb(157, 247, 191);
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgb(1, 70, 22);
+}
+
+form > input {
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(5, 5, 5);
+  font-family: inherit;
+}
+
+#btn-submit {
+  border: none;
+  background-color: rgb(134, 70, 68);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#btn-submit:hover {
+  background-color: rgb(250, 57, 57);
+}
+
+#contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    font-family: fantasy;
+    color: brown;
+}
